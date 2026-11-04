@@ -1,0 +1,22 @@
+# Data and model files are large and are downloaded in the notebooks
+data/
+datasets/
+*.zip
+*.tar
+*.parquet
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Colab and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
